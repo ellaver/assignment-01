@@ -1,4 +1,3 @@
-  
 """ 
 3. Write a code that generates a nested list with 2D point coordinates to generate a XY point grid
 Expected result: list_points = [[x1,y1], [x1,y2],...[xn,yn]]
