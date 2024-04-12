@@ -12,7 +12,7 @@ list_points = []
 
 def display_pt(list_points):
     for pt in list_points:
-        plt.plot(pt[0],pt[1], 'bo')
+        plt.plot(pt[0], pt[1], 'bo')
 
 plt.figure()
 display_pt(list_points)

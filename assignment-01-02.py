@@ -1,5 +1,5 @@
 """
-2. Write a program to sort a given list, sort based on the last element in each tuple in increasing order.
+2. Write a program to sort a given list by increasing order of the last element in each tuple..
 Expected Result : [(2, 1), (1, 2), (2, 3), (4, 4), (2, 5)]
 """
 
