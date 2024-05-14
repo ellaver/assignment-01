@@ -10,6 +10,14 @@ y_size = 6
 xy_point_grid = []
 
 ### insert code here
+for x in range(x_size):
+    row = []
+    for y in range(y_size):
+        row.append([x, y])
+    xy_point_grid.append(row)
+
+
+print(xy_point_grid)
 
 print(xy_point_grid)
 

@@ -3,8 +3,15 @@
 """
 
 def find_largest_number(numbers):
-    ### insert code here
-    return # largest number
+    largest_number = numbers[0]
+    
+    for i in range(1, len(numbers)):
+
+        if numbers[i] > largest_number:
+
+            largest_number = numbers[i]
+        
+    return largest_number
 
 input_list = [23, 5, 9, 28]
 b = find_largest_number(input_list)
